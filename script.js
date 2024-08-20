@@ -28,6 +28,7 @@ addBtn.addEventListener('click', () => {
             deleteButton.addEventListener('click', () => {
                 let child = deleteButton.parentElement;
                 child.parentElement.remove();
+                count -= 1;
             });
         });
         count += 1;
